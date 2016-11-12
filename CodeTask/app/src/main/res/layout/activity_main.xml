@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="barclay.codetask.com.codetask.activities.MainActivity">
+
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+
+    <RadioGroup
+        android:id="@+id/options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchBox">
+        <RadioButton
+            android:id="@+id/rbMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/rbMusicVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/musicVideo" />
+        <RadioButton
+            android:id="@+id/rbMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie" />
+        <RadioButton
+            android:id="@+id/rbPodcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/podcast" />
+        <RadioButton
+            android:id="@+id/rbAudioBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/audiobook" />
+        <RadioButton
+            android:id="@+id/rbShortFilm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortFilm" />
+        <RadioButton
+            android:id="@+id/rbTvShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvShow" />
+        <RadioButton
+            android:id="@+id/rbSoftware"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/software" />
+        <RadioButton
+            android:id="@+id/rbEbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ebook" />
+        <RadioButton
+            android:id="@+id/rbAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all" />
+
+    </RadioGroup>
+</RelativeLayout>

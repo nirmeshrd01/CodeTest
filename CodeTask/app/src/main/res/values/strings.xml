@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CodeTask</string>
+    <string name="search">search</string>
+    <!--    entities-->
+    <string name="movie">movie</string>
+    <string name="podcast">podcast</string>
+    <string name="music">music</string>
+    <string name="musicVideo">musicVideo</string>
+    <string name="audiobook">audiobook</string>
+    <string name="shortFilm">shortFilm</string>
+    <string name="tvShow">tvShow</string>
+    <string name="software">software</string>
+    <string name="ebook">ebook</string>
+    <string name="all">all</string>
+
+
+</resources>
